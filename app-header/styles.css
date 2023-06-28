@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+  top: 0;
+  position: sticky;
+  z-index:9999;
+  background-color: rgba(238, 238, 238, 0.89);
+}
+
+#app-wrapper {
+  height: 100vh;
+  padding-left: 15px;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  font-size: 2.1em;
+  color:black;
+  font-weight: 500;
+}
+
+#menu-1 {
+  display: contents;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items {
+  margin-right: 30px;
+  font-size: 1.25em;
+  color: black;
+}
+
+#menu-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  font-size: 1.25em;
+  color: black;
+}
+
+#contact {
+  margin-right: 30px;
+}
+
+#btn {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  margin-left: 30px;
+  font-size: 0.75em;
+  padding: 0.25em 1em;
+  border-radius: 8px;
+}
+
+#body-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+
+#headings {
+  color: #171717;
+  font-family: "Times New Roman";
+  font-size: 112px;
+  padding: 0px 3.6px;
+  margin-bottom: 3rem;
+}
+
+.paragraph {
+  color: #666666;
+  font: 24px "Times in Roman";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0.2em;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 2em;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 2rem;
+}
+
+#btn-1 {
+  margin-right: 2.25em;
+  background-color: #171717;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+#btn-1:hover {
+ opacity: 0.85;
+}
+
+#btn-2 {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid purple;
+}
+
+#btn-2:hover {
+  background-color: gray;
+}
+
+#text-box {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  width:50em;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.small-icon{
+  width:100px;
+}
+
+.medium-icon{
+  width:150px;
+}
+
+.large-icon{
+  width:200px;
+}
+
